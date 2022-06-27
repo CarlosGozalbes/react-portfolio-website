@@ -1,0 +1,22 @@
+.hello {
+    min-height: fit-content;
+    padding: 1rem 2rem 1rem 2rem;
+    color: white;
+    background-color:rgba(65, 56, 56, 0.5);
+    width: fit-content;
+    margin:auto;
+    border-radius: 15px;
+}
+
+.avatar {
+    color: white;
+}
+.nombre{
+    margin-right: 3rem
+}
+
+.nombreeee{
+    font-weight: 800;
+    font-size: 2rem;
+    max-width: 20rem;
+}

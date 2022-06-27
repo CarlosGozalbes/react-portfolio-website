@@ -1,0 +1,7 @@
+.about{
+    z-index: 100;
+    background-image: url('../../assets/dark-honeycomb.png');
+}
+.center {
+  margin: auto;
+}

@@ -1,0 +1,26 @@
+.project-card {
+ background-color: rgb(252, 246, 244);
+ color: #121212;
+ border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.visit-button{
+    background-color: #121212;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 2rem;
+}
+
+.visit-fe{
+    border-bottom-left-radius: 30px;
+}
+.visit-be{
+    border-top-right-radius: 30px;
+}
+
+.visit-button:hover {
+    color: #121212;
+    background-color: white;
+}
+
