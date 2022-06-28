@@ -1,0 +1,34 @@
+.carousel {
+    height: fit-content;
+
+}
+
+.css-ktslay-MuiButtonBase-root-MuiIconButton-root {
+    height: 3rem !important;
+    width:  3rem !important;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+    
+}
+
+
+
+.iconcarouselback{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color:rgb(252, 246, 244) ;
+    margin: auto;
+    padding: 0.8rem;
+    
+}
+
+.css-bbreus-MuiButtonBase-root-MuiIconButton-root {
+    display: none !important;
+}
+
+.css-8ucetn-MuiButtonBase-root-MuiIconButton-root {
+  display: none !important;
+  
+}
+

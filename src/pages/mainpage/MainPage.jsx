@@ -7,7 +7,7 @@ import About from '../../components/about/About';
 import Doog from './Doog';
 import Projects from '../../components/projects/Projects';
 import Contacto from '../../components/contact/Contacto';
-
+import MyCarousel from '../../components/carousel/MyCarousel';
 
 
 function mainPage() {
@@ -19,9 +19,10 @@ function mainPage() {
         <Doog />
       </Suspense>
       
-      <About id="about" />
+      <About />
+      <MyCarousel/>
       <Projects/>
-      <Contacto/>
+      <Contacto />
       <MyFooter />
     </>
   );

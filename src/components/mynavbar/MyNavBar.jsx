@@ -11,6 +11,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import './mynavbar.css'
 
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 
@@ -47,7 +48,9 @@ const NavBar = () => {
     <ThemeProvider theme={theme}>
       <AppBar
         sx={{
-          bgcolor: trigger ? "#ffffff" : "transparent",
+          bgcolor: trigger
+            ? "rgba(255, 255, 255, 0.8)"
+            : "rgba(255, 255, 255, 0.2)",
           color: trigger ? "#000000" : "white",
         }}
         style={{
@@ -94,15 +97,30 @@ const NavBar = () => {
                   display: { xs: "block", md: "none" },
                 }}
               >
-               
                 <MenuItem key={"About"} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center"><a href="#about">{"About"}</a></Typography>
+                  <Typography textAlign="center">
+                    <a className="navbarlink" href="#about">
+                      {"About"}
+                    </a>
+                  </Typography>
                 </MenuItem>
                 <MenuItem key={"Projects"} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{"Projects"}</Typography>
+                  <Typography textAlign="center">
+                    {" "}
+                    <a className="navbarlink" href="#projects">
+                      {" "}
+                      {"Projects"}
+                    </a>
+                  </Typography>
                 </MenuItem>
                 <MenuItem key={"Contact"} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{"Contact"}</Typography>
+                  <Typography textAlign="center">
+                    {" "}
+                    <a className="navbarlink" href="#contact">
+                      {" "}
+                      {"Contact"}
+                    </a>
+                  </Typography>
                 </MenuItem>
               </Menu>
             </Box>
@@ -124,7 +142,10 @@ const NavBar = () => {
                   display: "block",
                 }}
               >
-                {"About"}
+                <a className="navbarlink" href="#about">
+                  {" "}
+                  {"About"}
+                </a>
               </Button>
               <Button
                 key={"Projects"}
@@ -135,7 +156,10 @@ const NavBar = () => {
                   display: "block",
                 }}
               >
-                {"Projects"}
+                <a className="navbarlink" href="#projects">
+                  {" "}
+                  {"Projects"}
+                </a>
               </Button>
               <Button
                 key={"Contact"}
@@ -146,7 +170,9 @@ const NavBar = () => {
                   display: "block",
                 }}
               >
-                {"Contact"}
+                <a className="navbarlink" href="#contact">
+                  {"Contact"}
+                </a>
               </Button>
             </Box>
           </Toolbar>

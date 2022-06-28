@@ -10,13 +10,35 @@
 
 .avatar {
     color: white;
+    
+
 }
 .nombre{
-    margin-right: 3rem
+    margin-right: 3rem;
 }
 
 .nombreeee{
     font-weight: 800;
     font-size: 2rem;
     max-width: 20rem;
+}
+
+.linkdownloadcv{
+    color: inherit;
+
+}
+.linkdownloadcv:hover{
+    text-decoration: none;
+    color: inherit;
+
+}
+.downloadpdf{
+    background-color: #88ccca;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    
+}
+.downloadpdf:hover{
+    background-color: #2c615f;
+    color: white;
 }

@@ -3,9 +3,8 @@
     color: white;
     padding: 2.4rem;
     border-radius: 30px;
-    margin-right: 3rem;
     margin-left: 3rem;
-    width: fit-content;
+    min-width: 21.5rem;
 }
 .contact-button {
     background-color: #88ccca;
@@ -25,3 +24,11 @@
 .link-contact:hover {
     text-decoration: none;
 }
+
+
+.titlesection{color: white;
+   width: fit-content;
+   margin: auto;
+    text-decoration: underline;
+font-weight: 700;
+font-size: 1.2rem;}
