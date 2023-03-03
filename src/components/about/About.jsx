@@ -45,7 +45,7 @@ function About() {
         <div style={{marginBottom: '4rem'}} className="d-flex justify-content-center mt-3">
           <button className="downloadpdf">
             {" "}
-            <a className="linkdownloadcv" href={Curriculo} download={Curriculo}>
+            <a className="linkdownloadcv" /* href={Curriculo} download={Curriculo} */>
               Download CV <BsFileEarmarkPdfFill className='mb-1'/>{" "}
             </a>
           </button>
